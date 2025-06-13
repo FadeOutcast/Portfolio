@@ -1,6 +1,13 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+function initSlideshow() {
+    // Define showSlides, plusSlides, currentSlide, etc. inside here
+    // or call showSlides() if the logic is already globally defined
+    showSlides(slideIndex); // if already defined globally
+}
+
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);

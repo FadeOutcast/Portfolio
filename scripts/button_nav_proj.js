@@ -52,5 +52,7 @@ function LoadProject(button, btnIndex)
         projTextArea.innerHTML = ProjectText[btnIndex];
         projTextArea.style.opacity = 1;
         document.getElementById(button.getAttribute("id")).className = "proj-button-active";
+
+        initSlideshow();
     }
 }
