@@ -84,3 +84,11 @@
 .demo:hover {
   opacity: 1;
 }
+
+.slideshow-images{
+  width: 600px;
+  height: 337px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
