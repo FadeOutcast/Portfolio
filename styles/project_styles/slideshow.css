@@ -90,5 +90,5 @@
   height: 466px;
   object-fit: cover;
   margin: 0 auto;
-  display: block;
+  /*display: block;*/
 }
