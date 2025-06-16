@@ -2,12 +2,12 @@
 
 <hr>
 
-<div id="puzzle_title">Elysium Puzzles</div>
+<div id="puzzle_title">HearthStone fan game</div>
 
-<div id="puzzle_quote">"This is an excellent piece of work." Dr Graham Morgan</div>
+<!-- <div id="puzzle_quote">"This is an excellent piece of work." Dr Graham Morgan</div> -->
 <br>
 
-<div id="puzzle_tldr">
+<!-- <div id="puzzle_tldr">
     <img src="https://img.shields.io/badge/Build%20Date-25.10.19-informational" alt="date" />
     <img src="https://img.shields.io/badge/Category-Math-FF64FF" alt="category" />
     <img src="https://img.shields.io/badge/Language-C++-brightgreen" alt="language" />
@@ -15,22 +15,84 @@
 <div id="github_link_puzzle">    
     <a href="https://github.com/Kney-Delach/Elysium-Puzzle-Engine " target="_blank"><i id="github_link_exalted" class="fa fa-github"></i></a>
 </div>
-
+ -->
 <div id="puzzle_body">
     <div class="puzzle_text">
-        Grade: 96%
+        <a href="https://github.com/FadeOutcast/Hearthstone-AOT-Fan-Game">GITHUB</a>
         <br>
         <br>
-        Elysium was created with the purpose of simulating combinatorial strategies for variations of the 15-Puzzle problem whilst building a habit of utilizing effective modern C++.
+        Disclaimer: This is a fan-made game inspired by the show 'Attack on Titan' and the game 'Hearthstone'. I don’t own any of the characters, music, or themes from either of those; all credit goes to the original creators. This project was made just for fun and out of love for both the show and the game.
+        <br>
+        Note: Attack On Titan spoilers below
+        <br>
+        This game was created for the purpose of learning how to code a game from scratch, using Java and Java Swing. So learning about different design patterns, such as event-driven design, how to debug, how to prevent crashes. Overall this project really helped me develop my coding skills and taught me how to manage a decently sized project (including limiting dependencies and proper naming conventions).
         <br>
         <br>
-        Elysium also marked my first effective solo usage of Trello for project management, it assisted me in keeping track of the requirements I had set to complete between time frames.
+        This project also marked my first effective solo usage of Trello for project management, it assisted me in keeping track of the requirements I had set to complete between time frames.
         <br>
         <br>
-        The section of this project which I am most proud of is the template double ended stack and the template file readers & writers, all of which I utilise in my current C++ projects.
+        The section of this project which I am most proud of is the multiplayer functionality I added. Whilst peer to peer would have been sufficient for this game, I wanted to test my limits so I ended up developing a dedicated server instead. This server was also developed in Java and was uploaded to an AWS EC2 instance.
         <br>
         <br>
-        A list of project features can be found in the repository linked above.
+        The full project can be found in the repository linked above.
     </div>
 </div>
 <br>
+
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+      <img src="./Data/images/hearthstone_slideshow.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+      <img src="./Data/images/hearthstone_slideshow2.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+      <img src="./Data/images/hearthstone_slideshow4.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+      <img src="./Data/images/hearthstone_slideshow6.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="./Data/images/hearthstone_slideshow5.png" class="slideshow-images">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <!-- <div class="caption-container">
+    <p id="caption"></p>
+  </div> -->
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hearthstone_slideshow.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hearthstone_slideshow2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hearthstone_slideshow4.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hearthstone_slideshow6.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hearthstone_slideshow5.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+</div>
