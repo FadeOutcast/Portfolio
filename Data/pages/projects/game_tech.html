@@ -15,17 +15,15 @@
         This is a plugin I developed in C++ that can be added to any Unreal 5 project to enable Object Pooling. Great care was taken in reducing the overhead of the plugin to maximize the performance gains. The plugin can be easily integrated and supports blueprint functions and classes that can be easily customized to your use. The pooling system can also be accessed globally for ease of use.
         <br>
         <br>
-        Spawning and destorying actors/objects can be an expensive process in Unreal Engine, and it can cause major hitches and lag spikes if there are multiple actors spawning/getting destoryed at the same time. This plugin allows actors/objects to be spawned from an object pool, reducing the overall performance impact. This is effective for games that require constant spawning/destroying of actors like Bullet Hell and RTS games.
+        Spawning and destorying actors/objects can be an expensive process in Unreal Engine, and it can cause major hitches and lag spikes if there are multiple actors spawning/getting destoryed at the same time. This plugin combats this by spawning/destorying from an object pool, reducing the overall performance impact. This is effective for games that require constant spawning/destroying of actors like Bullet Hell and RTS games.
         <br>
         <br>
-        Performance Demonstration
+        <strong>Performance Demonstration</strong>
         <br>
         <br>
         In this test project, 1250 projectiles are present, and whenever they are destroyed they are respawned again.
         <br><br>
-        Please note that this is an extreme example for when this plugin can be useful. The performance gains can differ depending on the project.
-        <br><br>
-        In the first video, the plugin is disabled and projectiles are being spawned and destroyed the conventional way, while the second video the object pooling plugin is used. The graph below shows the frame time, so the higher it is the worse the performance. There are 2 main benefits to using the plugin. The first benefit is that the average FPS is higher by about 25% using the pooling plugin (when tested on my machine). The second benefit, which is more important in this case, is that the hitching and lag spikes are significantly reduced and almost eliminated completely.       
+        In the first video, the plugin is disabled and projectiles are being spawned and destroyed the conventional way, while the second video the object pooling plugin is used. The graph in the video shows the frame time, so the higher it is the worse the performance. There are 2 main benefits to using the plugin. The first benefit is that the average FPS is higher by about 25% using the pooling plugin (when tested on my machine). The second benefit, which is more important in this case, is that the hitching and lag spikes are significantly reduced and almost eliminated completely.       
         <br>
         <br>
         The plugin documentation can be found in the project's github repository.
