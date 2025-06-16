@@ -10,6 +10,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  justify-content: center;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -87,7 +88,7 @@
 
 .slideshow-images{
   width: 830px;
-  height: 466px;
+  /*height: 466px;*/
   object-fit: cover;
   margin: 0 auto;
   /*display: block;*/
