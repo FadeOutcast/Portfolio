@@ -2,33 +2,104 @@
 
 <hr>
 
-<div id="vpa_title">Vulkan Pipeline Assistant</div>
+<div id="vpa_title">Extras</div>
 
 <br>
 
-<div id="vpa_tldr">
-    <img src="https://img.shields.io/badge/Build%20Date-24.01.20-informational" alt="build_date"/>
-    <img src="https://img.shields.io/badge/Category-Tools-FF64FF" alt="category_Tool" />
-    <img src="https://img.shields.io/badge/Category-Graphics-FF64FF" alt="category_Graphics" />
-    <img src="https://img.shields.io/badge/API-Qt-orange" alt="api" />
-    <img src="https://img.shields.io/badge/API-Vulkan-orange" alt="api" />
-    <img src="https://img.shields.io/badge/Language-C++-brightgreen" alt="language" />
-</div>
-<div id="github_link_vpa">    
-    <a href="https://github.com/Untitled-Games/Vulkan-Pipeline-Assistant" target="_blank"><i id="github_link_vpa" class="fa fa-github"></i></a>
+<div class="vpa_subheading">
+    Hatch Post Process Material
 </div>
 
 <div id="vpa_body">
     <div class="vpa_text">
-        VPA is project I have contributed to in the past, but am no longer involved in. It is written in C++, and utilizes the Qt framework with the Vulkan API.
+        <a href="https://github.com/FadeOutcast/Hatch-Post-Process-Material">GITHUB</a>
+        <br><br>
+        The post process material is fully customizable, giving you full control on different aspects like the hash texture used, the hash and primary colors, and the hash texture tiling. You will see in the last image that you are also able to use the normal engine colors combined with the hash texture.
         <br>
         <br>
-        VPA was produced as a solution for the problem of having to write hard-coded data for the generation of different graphics pipelines when using the Vulkan API. 
+        What I enjoyed most about this material was figuring out how to create a shadow mask, which is not available by default in unreal, and figuring out how to layer the hatch texture on top of it in an elegant way.
+        <br><br>
+    </div>
+</div>
+
+<div id="tech_youtube">
+    <video width="830px" height="466px">
+        <soruce src="./Data/videos/Hatch_material.mp4" type="video/mp4">
+    </video>
+</div>
+
+<br><br>
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+      <img src="./Data/images/hatch_slideshow.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+      <img src="./Data/images/hatch_slideshow2.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+      <img src="./Data/images/hatch_slideshow3.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+      <img src="./Data/images/hatch_slideshow4.png" class="slideshow-images">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="./Data/images/hatch_slideshow5.png" class="slideshow-images">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <!-- <div class="caption-container">
+    <p id="caption"></p>
+  </div> -->
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hatch_slideshow.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hatch_slideshow2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hatch_slideshow3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hatch_slideshow4.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Data/images/hatch_slideshow5.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+</div>
+<br><br>
+
+<div class="vpa_subheading">
+    Unreal subtitle to widget plugin
+</div>
+
+<div id="vpa_body">
+    <div class="vpa_text">
+        <a href="https://github.com/FadeOutcast/Unreal-Subtitles-To-Widget">GITHUB</a>
+        <br><br>
+        This is a simple plugin that can be easily integrated into any project. It allows you to display unreals built in subtitles through widgets/UMG rather than through the default display at the bottom. This allows for much better customizability like text color, text size, text location on the screen, and changing the font settings in runtime.
         <br>
         <br>
-        The way it solves this problem is by producing configuration files which contain the information required to generate graphical pipelines, which can in turn be loaded into engines which utilize Vulkan, resulting in the production of pipelines without the programmer having to hard-code any pipeline values.
-        <br>
-        <br>
-        The project is currently still under development, primarily by <a href="https://qozul.github.io/" target="_blank">Ralph Ridley</a>, and its progress can be followed on either github or the <a href ="https://trello.com/b/80TA000E/vpa" target="_blank">trello</a> board, which is continuously being updated.
+        The github link above shows how to use it.
+        <br><br>
     </div>
 </div>
